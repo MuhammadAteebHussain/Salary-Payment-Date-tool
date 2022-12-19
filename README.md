@@ -50,9 +50,9 @@ composer dumpautload -o
 ## Running Project
 
 ##
-- RUN Unit tests
+- RUN Unit tests it will also return code coverage that is more than 86%
 ```bash
-php artisan test
+XDEBUG_MODE=coverage php artisan test --coverage
 ```
 - after running that command you will see unit/feature test execution. the generated file by unit tests you can see in  public/files/ directory.
 
